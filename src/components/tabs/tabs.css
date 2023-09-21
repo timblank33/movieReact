@@ -1,0 +1,32 @@
+.tabs-block__btn {
+    position: relative;
+    margin: 0 auto;
+
+    width: 144px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 17px;
+}
+.no-todo {
+    margin: 0 auto;
+}
+.asdad {
+    background-color: transparent;
+    font-size: 14px;
+    text-align: center;
+}
+.ant-menu-item {
+    padding-inline: 0 !important;
+}
+.ant-menu-overflow-item {
+    width: 64px;
+    height: 53px;
+    margin-right: 16px !important;
+}
+.ant-menu-item::after {
+    inset-inline: 0px !important;
+}
+
+.ant-menu-overflow-item:nth-child(2) {
+    margin-right: 0 !important;
+}

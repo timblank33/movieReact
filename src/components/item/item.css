@@ -1,0 +1,118 @@
+p {
+    padding: 0;
+    margin: 0;
+}
+.item {
+    width: 451px;
+    height: 279px;
+    display: flex;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 37px;
+    margin-right: 36px;
+}
+.item:nth-child(even) {
+    margin-right: 0;
+}
+.item-img {
+    width: 183px;
+}
+.item-text {
+    position: relative;
+    width: 100%;
+    color: #000;
+    padding: 10px 20px;
+}
+h1 {
+    font-size: 20px;
+    margin-right: 25px;
+}
+.item-date {
+    color: #827e7e;
+    font-size: 12px;
+}
+.null-genre {
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    color: #827e7e;
+    font-size: 12px;
+    background-color: #fafafa;
+    text-align: center;
+}
+.btn-genre {
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    color: #827e7e;
+    font-size: 12px;
+    background-color: #fafafa;
+    margin-right: 8px;
+}
+.item-about {
+    color: #000;
+    line-height: 22px;
+    font-size: 12px;
+}
+.vote-average {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 2px solid #e9d100;
+}
+.ant-rate {
+    position: absolute;
+    bottom: 0;
+    width: 239px;
+    height: 46px;
+    text-align: center;
+}
+.anticon {
+    width: 15px;
+}
+
+@media (max-width: 420px) {
+    .item {
+        position: relative;
+        height: 245px;
+        margin: 0;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    .item-img {
+        width: 60px;
+        height: 91px;
+        padding: 0px;
+    }
+    .item-date {
+        margin-bottom: 9px;
+    }
+    .item-text {
+        position: static;
+        width: 100%;
+        color: #000;
+        padding: 0px 13px;
+    }
+    .btn-genre,
+    .null-genre {
+        margin-bottom: 7px;
+    }
+    .item-about {
+        position: absolute;
+        left: 0;
+        transform: translate(0, 10px);
+        margin: 0px 10px;
+    }
+    .vote-average {
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 8px;
+    }
+    .ant-rate {
+        right: 0;
+    }
+}
